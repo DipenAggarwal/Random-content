@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>My First Frontend Project</title>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Notice how we have used "semantic HTML" here -->
+    <!-- Re-read the lesson if you don't understand what that means -->
+    <!-- https://www.zachgollwitzer.com/posts/2021/fullstack-developer-series/7-html-crash-course-->
+    <main>
+      <section class="content">
+        <!-- Your HTML code goes here -->
+        <h2>Output</h2>
+        <h3>Programmer Memes</h3>
+        <div id="meme"></div>
+        <h3>Tell me something funny!</h3>
+        <div id="joke"></div>
+        <h3>Give me some wisdom...</h3>
+        <div id="quote"></div>
+        <h3>I want a riddle</h3>
+        <div id="riddle"></div>
+      </section>
+      
+      <!-- No need to change anything in this section -->
+      <section class="sidebar">
+        <h2>Actions</h2>
+        <button onclick="showMeme()">Show a Meme</button>
+        <button onclick="showJoke()">Tell Me a Joke</button>
+        <button onclick="showQuote()">Random Quote</button>
+        <button onclick="showRiddle()">Riddle me</button>
+        <button class="reveal-btn" onclick="revealAnswers()">Reveal Riddle Answer</button>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
